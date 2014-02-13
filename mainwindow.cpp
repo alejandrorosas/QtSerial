@@ -23,6 +23,7 @@ MainWindow::MainWindow(QWidget *parent) :
            ui->comboBox->addItem(""+ info.portName());
            port = info;
     }
+    //Test GitHub
     connect(serial, SIGNAL(readyRead()), this, SLOT(readData()));
 }
 
